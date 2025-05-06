@@ -9,15 +9,16 @@ import '../lib/auth_service.dart';
 import 'auth_service_test.mocks.dart';
 
 void main() {
-  group('AuthService Test with Mockito', () {
-    late MockAuthService mockAuthService;
+  group('AuthService Test com Mokito', () {
+    late MockAuthService mockAuthService; //declara a variavel
 
     setUp(() {
-      mockAuthService = MockAuthService();
+      mockAuthService = MockAuthService(); // instancia um novo mock
     });
 
-    test('should return true when login succeeds', () async {
-      when(mockAuthService.login('user', 'pass')).thenAnswer((_) async => true);
+    test('Retorne true se o login tiver sucesso', () async {
+      when(mockAuthService.login('user', 'pass'))
+          .thenAnswer((_) async => true); //stub
 
       final result = await mockAuthService.login('user', 'pass');
       expect(result, isTrue);

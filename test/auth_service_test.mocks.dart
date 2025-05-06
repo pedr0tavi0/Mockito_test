@@ -27,32 +27,22 @@ import 'package:Mockito_test/auth_service.dart' as _i2;
 /// See the documentation for Mockito's code generation for more information.
 class MockAuthService extends _i1.Mock implements _i2.AuthService {
   MockAuthService() {
-    _i1.throwOnMissingStub(this);
+    _i1.throwOnMissingStub(this); //método contrutor
   }
 
   @override
   _i3.Future<bool> login(
-    String? username,
-    String? password,
+    String? pedro,
+    String? mudar123,
   ) =>
       (super.noSuchMethod(
         Invocation.method(
           #login,
           [
-            username,
-            password,
+            pedro,
+            mudar123,
           ],
         ),
         returnValue: _i3.Future<bool>.value(false),
       ) as _i3.Future<bool>);
-
-  @override
-  _i3.Future<void> logout() => (super.noSuchMethod(
-        Invocation.method(
-          #logout,
-          [],
-        ),
-        returnValue: _i3.Future<void>.value(),
-        returnValueForMissingStub: _i3.Future<void>.value(),
-      ) as _i3.Future<void>);
 }
