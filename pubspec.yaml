@@ -1,0 +1,14 @@
+name: Mockito_test  
+description: Exemplo simples de teste com Mockito simulando autenticação
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  # Nenhuma dependência por enquanto
+
+dev_dependencies:
+  test: ^1.24.0
+  mockito: ^5.4.2
+  build_runner: ^2.4.8
