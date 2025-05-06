@@ -31,10 +31,12 @@ Este exemplo simula um serviço de autenticação (`AuthService`) utilizando o M
 3. Instale as dependências:  
    `dart pub get`
 
-4. Gere os mocks utilizando o build_runner:  
+4. Gere os mocks utilizando o build_runner:
+
+   ## ⚠️ Isso gera automaticamente o arquivo auth_service_test.mocks.dart, baseado na anotação @GenerateMocks([AuthService]).
    `dart run build_runner build`
 
-5. Execute os testes:  
+6. Execute os testes:  
    `dart test`
 
 ## 📁 Dependências
