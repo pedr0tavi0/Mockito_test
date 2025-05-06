@@ -32,8 +32,7 @@ Este exemplo simula um serviço de autenticação (`AuthService`) utilizando o M
    `dart pub get`
 
 4. Gere os mocks utilizando o build_runner:
-
-   ## ⚠️ Isso gera automaticamente o arquivo auth_service_test.mocks.dart, baseado na anotação @GenerateMocks([AuthService]).
+ ### ⚠️ Isso gera automaticamente o arquivo auth_service_test.mocks.dart, baseado na anotação @GenerateMocks([AuthService]).
    `dart run build_runner build`
 
 6. Execute os testes:  
