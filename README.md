@@ -41,9 +41,6 @@ Este exemplo simula um serviço de autenticação (`AuthService`) utilizando o M
 
 O arquivo `pubspec.yaml` do projeto contém as seguintes dependências:
 
-**dependencies:**  
-(Nenhuma dependência por enquanto)
-
 **dev_dependencies:**  
 - test: ^1.24.0  
 - mockito: ^5.4.2  
